@@ -9,13 +9,13 @@ public class Menor {
 	private int b;
 
 	//Constructor
-	public Menor() {
-		a=0;
-		b=0;
+	public Menor(int a , int b) {
+		this.a=a;
+		this.b=b;
 	}
 	
 	public void setA(int a){
-		this.a=b;
+		this.a=a;
 	}
 
 	public void setB(int b){

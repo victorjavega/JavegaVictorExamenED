@@ -10,9 +10,9 @@ public class Resta {
 	private int b;
 
 	//Constructor
-	public Resta() {
-		a=0;
-		b=0;
+	public Resta(int a, int b) {
+	this.a=a;
+	this.b=b;
 	}
 	
 	public void setA(int a){
@@ -20,7 +20,7 @@ public class Resta {
 	}
 
 	public void setB(int b){
-		this.a=a;
+		this.b=b;
 	}
 	
 	//Método que permite restar dos números enteros
